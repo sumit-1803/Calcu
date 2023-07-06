@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="cal.png" type="image/x-icon">
+    <title>My Calculator</title>
+</head>
+
+<body>
+    <div class="heading">
+        <p>This is My Calculator</p>
+    </div>
+
+    <div class="dis">
+        <button id="clear" onclick="clearDisplay()" >CLR</button>
+        <span id="dis"></span>
+    </div>
+
+    <div id="container" class="container">
+
+        
+        <button id="7" onclick="seven()" class="cell">7</button>
+        <button id="8" onclick="eight()" class="cell">8</button>
+        <button id="9" onclick="nine()" class="cell">9</button>
+        <button id="X" onclick="mul1()" class="cell">X</button>
+        <button id="4" onclick="four()" class="cell">4</button>
+        <button id="5" onclick="five()" class="cell">5</button>
+        <button id="6" onclick="six()" class="cell">6</button>
+        <button id="-" onclick="sub1()" class="cell">-</button>
+        <button id="1" onclick="one()" class="cell">1</button>
+        <button id="2" onclick="two()" class="cell">2</button>
+        <button id="3" onclick="three() " class="cell">3</button>
+        <button id="+" onclick="add1()" class="cell">+</button>
+        <button id="/" onclick="div1()" class="cell">/</button>
+        <button id="0" onclick="zero()" class="cell">0</button>
+        <button id="." onclick="point1()" class="cell">.</button>
+        
+
+
+        <button id="=" onclick="equalsto()" class="cell">=</button>
+
+
+
+
+    </div>
+
+    
+
+</body>
+<script src="main.js"></script>
+
+</html>
+
